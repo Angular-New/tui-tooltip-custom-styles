@@ -18,6 +18,7 @@
     <div class="row">
       <div class="icon"
            tuiHint
+           [tuiHintDirection]="hintDirection"
       >
         <tui-hint
           *tuiHint
@@ -40,6 +41,13 @@
         <div>my custom tooltip</div>
       </ng-template>
     </div>
+    <!--  my custom host tooltip  -->
+
+    <!--  my custom host tooltip  -->
+    <app-custom-host-tooltip
+      [host-title]="hostTitle"
+      [host-direction]="hostDirection"
+    ></app-custom-host-tooltip>
     <!--  my custom host tooltip  -->
 
     <tui-avatar

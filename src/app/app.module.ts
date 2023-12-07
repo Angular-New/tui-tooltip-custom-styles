@@ -14,11 +14,13 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { SgmTooltipComponent } from './components/sgm-tooltip/sgm-tooltip.component';
 import { TuiAvatarModule } from '@taiga-ui/kit';
+import { CustomHostTooltipComponent } from './components/custom-host-tooltip/custom-host-tooltip.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    SgmTooltipComponent
+    SgmTooltipComponent,
+    CustomHostTooltipComponent
   ],
   imports: [
     BrowserModule,

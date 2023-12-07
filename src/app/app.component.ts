@@ -10,4 +10,11 @@ export class AppComponent {
   public content: string = 'other-attempt';
   public direction: TuiHintDirection = 'bottom';
   public customHostDirection: TuiHintDirection = 'right';
+
+  // custom host tooltip
+  public hostTitle: string = 'little host style';
+  public hostDirection: TuiHintDirection = 'bottom';
+
+  // hint tooltip
+  public hintDirection: TuiHintDirection = 'right';
 }
