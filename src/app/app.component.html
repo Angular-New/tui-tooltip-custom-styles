@@ -1,9 +1,17 @@
 <tui-root>
   <div class="wrapper">
-    <tui-tooltip
-      [direction]="direction"
-      [content]="content"
-      appearance="appearance"
-    ></tui-tooltip>
+    <div class="row">
+      <tui-tooltip
+        [content]="content"
+        [direction]="direction"
+        appearance="appearance"
+      ></tui-tooltip>
+    </div>
+    <div class="row">
+      <app-sgm-tooltip
+        [sgm-title]="content"
+        [sgm-direction]="direction"
+      ></app-sgm-tooltip>
+    </div>
   </div>
 </tui-root>
