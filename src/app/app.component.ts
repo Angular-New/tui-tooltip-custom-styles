@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { TuiHintDirection } from '@taiga-ui/core';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  public title: string = 'other-attempt';
+  public content: string = 'other-attempt';
+  public direction: TuiHintDirection = 'bottom';
 }
