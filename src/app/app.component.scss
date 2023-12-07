@@ -9,3 +9,21 @@
     margin-bottom: 20px;
   }
 }
+
+.icon {
+  width: 16px;
+  height: 16px;
+  background-color: darkmagenta;
+  cursor: pointer;
+}
+
+.hint {
+  color: var(--tui-text-01-night);
+  background: linear-gradient(43deg, #4158d0 0%, #c850c0 46%, #ffcc70 100%);
+  font-weight: bold;
+
+  &:before {
+    display: none;
+  }
+}
+
