@@ -5,7 +5,7 @@ import { TuiHintDirection } from '@taiga-ui/core';
   selector: 'app-sgm-tooltip',
   templateUrl: './sgm-tooltip.component.html',
   styleUrls: ['./sgm-tooltip.component.scss'],
-  changeDetection: ChangeDetectionStrategy.OnPush
+  changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class SgmTooltipComponent {
   @Input('sgm-title') content: string = '';

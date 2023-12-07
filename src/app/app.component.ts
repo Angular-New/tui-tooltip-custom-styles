@@ -9,4 +9,5 @@ import { TuiHintDirection } from '@taiga-ui/core';
 export class AppComponent {
   public content: string = 'other-attempt';
   public direction: TuiHintDirection = 'bottom';
+  public customHostDirection: TuiHintDirection = 'right';
 }

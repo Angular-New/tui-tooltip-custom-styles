@@ -27,5 +27,40 @@
           directive to customize it</tui-hint>
       </div>
     </div>
+
+    <!--  my custom host tooltip  -->
+    <div class="row">
+      <div
+        [tuiHint]="customHostTooltip"
+        [tuiHintDirection]="customHostDirection"
+        tuiHintAppearance="appearance"
+        class="custom-host"
+      ></div>
+      <ng-template #customHostTooltip>
+        <div>my custom tooltip</div>
+      </ng-template>
+    </div>
+    <!--  my custom host tooltip  -->
+
+    <tui-avatar
+      size="l"
+      tabindex="0"
+      text="❤"
+      tuiHintAppearance="onDark"
+      tuiHintDirection="right"
+      [autoColor]="true"
+      [rounded]="true"
+      [tuiHint]="tooltip"
+    ></tui-avatar>
+    <ng-template #tooltip>
+      <div>
+        What is
+        <strong>love</strong>
+        ?
+      </div>
+      <div>Baby don't hurt me</div>
+      <div>Don't hurt me</div>
+      <div>No more...</div>
+    </ng-template>
   </div>
 </tui-root>
